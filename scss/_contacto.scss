@@ -1,0 +1,29 @@
+/* inicio pag contacto */
+
+form {
+    background-color: rgba(255, 255, 255, 0.711);
+    text-shadow: 0 0 10px;
+    border-radius: 15px;
+    width: 600px;
+    padding-left: 20px;
+    margin: 40px 150px;
+    font-size: 200%;
+    font-weight: 1000;
+
+    input {
+        border-radius: 10%;
+        width: 90%;
+        padding: 1.5%;
+    }
+
+    .enviar {
+        text-align: end;
+        margin: 5px 50px 5px 10px;
+    }
+}
+
+.enviar a {
+    color: $color-negro;
+}
+
+/* fin pag contacto */

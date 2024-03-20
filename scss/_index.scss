@@ -1,0 +1,224 @@
+/* comienzo index */
+
+section img {
+    height: auto;
+    max-width: 280PX;
+    display: flexbox;
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    min-height: 80px;
+    position: sticky;
+
+    a {
+        text-shadow: 0 0 5px blue;
+        font-size: 15px;
+        font-family: "Montserrat Alternates", sans-serif;
+
+        &:hover {
+            color: orangered;
+            text-shadow: 0 0 5px white;
+        }
+    }
+}
+
+.jumbotron {
+    background-image: url(../multimedia/FONDO.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+}
+
+.call {
+    margin-top: 220px;
+    text-align: center;
+    text-shadow: 0 0 15px red;
+    color: $color-negro;
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 25px;
+    border: 7px solid rgba(255, 255, 255, 0.622);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 120px;
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        color: $color-negro;
+        font-size: 20px;
+    }
+}
+
+.container-fluid {
+    background-color: black;
+    width: 100%;
+
+    h2 {
+        color: red;
+        text-shadow: 0 0 3px white;
+    }
+
+    .img1 {
+        border: 5px solid rgba(0, 0, 0, 0.331);
+        border-radius: 15px;
+        background-color: grey;
+    }
+
+    .img2,
+    .img3 {
+        border: 5px solid rgba(0, 0, 0, 0.331);
+        border-radius: 15px;
+        background-color: gray;
+    }
+}
+
+.row img {
+    width: auto;
+    height: 180px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+}
+
+h2 {
+    font-family: "Madimi One", sans-serif;
+}
+
+p {
+    font-size: 22px;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: $color-blanco;
+    text-shadow: 0 0 7px red;
+}
+
+@media only screen and (max-width: 768px) {
+    .call {
+        margin: 40px;
+        margin-top: 140px;
+
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .call p {
+        font-size: 14px;
+    }
+
+    .container-fluid h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .call {
+        margin: 60px;
+        height: 350px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .call {
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .container-fluid h2 {
+        font-size: 18px;
+    }
+}
+
+footer {
+    text-align: end;
+    font-size: 40px;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding: 100px;
+    text-shadow: 0 0 20px white;
+}
+
+.redes a {
+    text-decoration: none;
+    text-align: end;
+    color: $color-blanco;
+    font-size: 60px;
+    text-shadow: 0 0 20px white;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-inline-end: 10px;
+}
+
+.arriba i {
+    color: white;
+    text-align: end;
+    margin-left: 100PX;
+    margin-top: 35px;
+    text-shadow: 0 0 20px white;
+    font-size: 40px;
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        font-size: 25px;
+        text-align: center;
+        margin: 7px;
+    }
+
+    .redes a {
+        font-size: 30px;
+        margin: 7px;
+    }
+
+    .arriba i {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 10px;
+        margin: 7px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    footer {
+        font-size: 15px;
+        text-align: center;
+        margin-right: 1px;
+    }
+
+    .redes a {
+        font-size: 20px;
+        margin-left: 8px;
+    }
+
+    .arriba i {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
