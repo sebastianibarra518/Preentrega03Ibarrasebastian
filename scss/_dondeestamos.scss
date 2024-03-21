@@ -2,7 +2,7 @@
 
 h3 {
     color: $color-blanco;
-    text-shadow: 0 0 7px white;
+    text-shadow: 0 0 7px $color-blanco;
     font-size: 25px;
 }
 @media only screen and (max-width: 1200px) {

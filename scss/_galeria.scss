@@ -5,7 +5,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 200px);
     padding: 10px;
-    background-color: gray;
+    background-color: $color-gris;
     grid-gap: 20px;
 }
 
@@ -16,14 +16,14 @@
     padding: 10px 20px;
 
     &:hover {
-        background-color: red;
+        background-color: $color-rojo;
         color: $color-blanco;
     }
 }
 
 .item {
-    border: 5px solid black;
-    background-color: gray;
+    border: 5px solid $color-negro;
+    background-color: $color-gris;
     background-size: cover;
     background-position: center;
 }

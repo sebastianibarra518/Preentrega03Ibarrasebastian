@@ -2,16 +2,16 @@
 
 .motor {
     display: flex;
-    background-color: gray;
+    background-color: $color-gris;
     color: $color-negro;
-    text-shadow: 0 0 7px red;
+    text-shadow: 0 0 7px $color-rojo;
 }
 
 h2 {
     background-color: rgb(128, 128, 128);
     color: $color-blanco;
     text-align: center;
-    text-shadow: 0 0 7px red;
+    text-shadow: 0 0 7px $color-rojo;
     margin: 0;
 }
 
@@ -24,12 +24,12 @@ img {
     padding: 10px;
     width: 20%;
     color: $color-rojo;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px $color-blanco;
     font-size: 30px;
 
     p {
         color: $color-blanco;
-        text-shadow: 0 0 7px red;
+        text-shadow: 0 0 7px $color-rojo;
         font-size: 17px;
     }
 }
@@ -44,11 +44,11 @@ span {
     width: 35%;
     padding: 15px;
     margin: 15px;
-    text-shadow: 0 0 4px red;
+    text-shadow: 0 0 4px $color-rojo;
 }
 
 .call2 {
-    border: 10px solid red ;
+    border: 10px solid $color-rojo ;
     background-color: rgba(128, 128, 128, 0.712);
     padding: 10%;
     margin: 10px;
@@ -57,18 +57,18 @@ span {
     h1 {
         font-size: 60px;
         color: $color-rojo;
-        text-shadow: 0 0 20px black;
+        text-shadow: 0 0 20px $color-negro;
     }
 
     p {
         font-size: 35px;
         color: $color-blanco;
-        text-shadow: 0 0 20px red;
+        text-shadow: 0 0 20px $color-rojo;
     }
 }
 
 body {
-    background-color: black;
+    background-color: $color-negro;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -108,7 +108,7 @@ body {
 
         h2 {
             font-size: 20px;
-            text-shadow: 0 0 3px black;
+            text-shadow: 0 0 3px $color-negro;
 
             p {
                 font-size: 14px;
@@ -126,7 +126,7 @@ body {
     }
 
     .call2 {
-        border: 7px solid red;
+        border: 7px solid $color-rojo;
         padding: 8px;
         margin: 8px;
 
@@ -169,7 +169,7 @@ body {
     }
 
     .call2 {
-        border: 4px solid red;
+        border: 4px solid $color-rojo;
 
         h1 {
             font-size: 25px;
