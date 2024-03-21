@@ -5,10 +5,38 @@ h3 {
     text-shadow: 0 0 7px white;
     font-size: 25px;
 }
-
+@media only screen and (max-width: 1200px) {
+    h3 {
+        color: $color-blanco;
+        text-shadow: 0 0 7px $color-blanco;
+        font-size: 35px;
+    }
+}
 iframe {
     border-radius: 15px;
-    margin: 50px 50px 50px 200px;
+    margin: 20px 300px 20px 100px;
+}
+@media only screen and (max-width: 768px) {
+    h3{
+    font-size: 25px;
+    }
+
+    iframe{
+        border-radius: 5px;
+        margin: 50px 50px 50px 50px;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
+} 
+@media only screen and (max-width: 320px) {
+    h3{
+        font-size: 20px;
+    }
+    iframe{
+        display: none;
+    }
 }
 
 /* fin pag donde estamos */
