@@ -11,6 +11,12 @@ h3 {
         text-shadow: 0 0 7px $color-blanco;
         font-size: 35px;
     }
+    #demo2{
+        display: none;
+    }
+    #demo3{
+        display: none;
+    }
 }
 iframe {
     border-radius: 15px;
@@ -25,6 +31,13 @@ iframe {
         border-radius: 5px;
         margin: 50px 50px 50px 50px;
     }
+
+    #demo1{
+        display: none;
+    }
+    #demo3{
+        display: none;
+    }
     footer{
         margin: 0;
         padding: 0;
@@ -34,7 +47,7 @@ iframe {
     h3{
         font-size: 20px;
     }
-    iframe{
+    .demo{
         display: none;
     }
 }

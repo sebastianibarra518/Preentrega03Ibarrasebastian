@@ -1,0 +1,2 @@
+agregre @media a las paginas faltantes 
+utilice variables y mixin en pagina index

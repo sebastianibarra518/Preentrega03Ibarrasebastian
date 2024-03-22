@@ -419,17 +419,43 @@ body {
 
 /* fin pagina servicios */
 /* inicio pag donde estamos */
+
+*{
+    margin: 0;
+    padding: 0;
+}
 h3 {
     color: #fafafa;
     text-shadow: 0 0 7px #fafafa;
     font-size: 25px;
 }
+#demo2{
+    display: none;
+}
+#demo3{
+    display: none;
+}
+button{
+    display: none;
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
     h3 {
         color: #fafafa;
         text-shadow: 0 0 7px #fafafa;
         font-size: 35px;
+    }
+    #demo1{
+        display: flex;
+    }
+    #demo2{
+        display: none;
+    }
+    #demo3{
+        display: none;
+    }
+    button{
+        display: none;
     }
 }
 
@@ -448,6 +474,19 @@ iframe {
         margin: 50px 50px 50px 50px;
     }
 
+    #demo1{
+        display: none;
+    }
+    #demo3{
+        display: none;
+    }
+    #demo2{
+        display: flex;
+    }
+    button{
+        display: none;
+    }
+
     footer {
         margin: 0;
         padding: 0;
@@ -458,8 +497,16 @@ iframe {
     h3 {
         font-size: 20px;
     }
-
-    iframe {
+    #demo1{
+        display: none;
+    }
+    #demo2{
+        display: none;
+    }
+    #demo3{
+        display: flex;
+    }
+    button{
         display: none;
     }
 }
