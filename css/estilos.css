@@ -11,7 +11,6 @@
 /* font-family: "Montserrat Alternates", sans-serif;
 font-family: "Montserrat Alternates", sans-serif;
 font-family: "Montserrat Alternates", sans-serif; */
-
 /* comienzo index */
 section img {
     height: auto;
@@ -237,17 +236,21 @@ footer {
     }
 }
 
-/* fin index comienzo de servicios */
+/* comienzo de servicios */
+*{
+    margin: 0;
+    padding: 0;
+}
 .motor {
     display: flex;
     background-color: gray;
-    color: black;
+    color: white;
     text-shadow: 0 0 7px red;
 }
 
 h2 {
     background-color: rgb(128, 128, 128);
-    color: #fafafa;
+    color: white;
     text-align: center;
     text-shadow: 0 0 7px red;
     margin: 0;
@@ -262,12 +265,12 @@ img {
     padding: 10px;
     width: 20%;
     color: red;
-    text-shadow: 0 0 10px #fafafa;
+    text-shadow: 0 0 10px white;
     font-size: 30px;
 }
 
 .motor h2 p {
-    color: #fafafa;
+    color: white;
     text-shadow: 0 0 7px red;
     font-size: 17px;
 }
@@ -301,7 +304,7 @@ span {
 
 .call2 p {
     font-size: 35px;
-    color: #fafafa;
+    color: white;
     text-shadow: 0 0 20px red;
 }
 
@@ -419,42 +422,24 @@ body {
 
 /* fin pagina servicios */
 /* inicio pag donde estamos */
-
-*{
-    margin: 0;
-    padding: 0;
-}
 h3 {
     color: #fafafa;
     text-shadow: 0 0 7px #fafafa;
     font-size: 25px;
 }
-#demo2{
-    display: none;
-}
-#demo3{
-    display: none;
-}
-button{
-    display: none;
-}
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     h3 {
         color: #fafafa;
         text-shadow: 0 0 7px #fafafa;
         font-size: 35px;
     }
-    #demo1{
-        display: flex;
-    }
-    #demo2{
+
+    #demo2 {
         display: none;
     }
-    #demo3{
-        display: none;
-    }
-    button{
+
+    #demo3 {
         display: none;
     }
 }
@@ -474,16 +459,11 @@ iframe {
         margin: 50px 50px 50px 50px;
     }
 
-    #demo1{
+    #demo1 {
         display: none;
     }
-    #demo3{
-        display: none;
-    }
-    #demo2{
-        display: flex;
-    }
-    button{
+
+    #demo3 {
         display: none;
     }
 
@@ -497,16 +477,8 @@ iframe {
     h3 {
         font-size: 20px;
     }
-    #demo1{
-        display: none;
-    }
-    #demo2{
-        display: none;
-    }
-    #demo3{
-        display: flex;
-    }
-    button{
+
+    .demo {
         display: none;
     }
 }
@@ -634,7 +606,11 @@ iframe {
 }
 
 /* fin pag galeria */
-/* inicio pag contacto */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -746,6 +722,7 @@ form .enviar {
 
     footer {
         margin: 0;
+        padding: 0;
     }
 }
 

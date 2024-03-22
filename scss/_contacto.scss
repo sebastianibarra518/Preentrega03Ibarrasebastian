@@ -1,4 +1,8 @@
-/* inicio pag contacto */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid{
     padding: 0;
 }
@@ -94,6 +98,7 @@ form {
         }
         footer{
             margin: 0;
+            padding: 0;
         }
     }
     @media only screen and (max-width: 320px) {
