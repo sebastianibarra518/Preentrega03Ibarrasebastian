@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* font-family: "Madimi One", sans-serif; */
@@ -13,757 +12,688 @@ font-family: "Montserrat Alternates", sans-serif;
 font-family: "Montserrat Alternates", sans-serif; */
 /* comienzo index */
 section img {
-    height: auto;
-    max-width: 280PX;
-    display: flexbox;
-    margin: 20px;
-    padding: 10px;
+  height: auto;
+  max-width: 280PX;
+  display: flexbox;
+  margin: 20px;
+  padding: 10px;
 }
 
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .navbar {
-    min-height: 80px;
-    position: sticky;
+  min-height: 80px;
+  position: sticky;
 }
-
 .navbar a {
-    text-shadow: 0 0 5px blue;
-    font-size: 15px;
-    font-family: "Montserrat Alternates", sans-serif;
+  text-shadow: 0 0 5px blue;
+  font-size: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
 }
-
 .navbar a:hover {
-    color: orangered;
-    text-shadow: 0 0 5px #fafafa;
+  color: orangered;
+  text-shadow: 0 0 5px #fafafa;
 }
 
 .jumbotron {
-    background-image: url(../multimedia/FONDO.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    width: 100%;
+  background-image: url(../multimedia/FONDO.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 100%;
 }
 
 .call {
-    margin-top: 220px;
-    text-align: center;
-    text-shadow: 0 0 15px red;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.452);
-    padding: 25px;
-    border: 7px solid rgba(255, 255, 255, 0.622);
-    border-radius: 15px;
-    padding: 30px;
-    margin: 120px;
+  margin-top: 220px;
+  text-align: center;
+  text-shadow: 0 0 15px red;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.452);
+  padding: 25px;
+  border: 7px solid rgba(255, 255, 255, 0.622);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 120px;
 }
-
 .call h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
-
 .call p {
-    color: black;
-    font-size: 20px;
+  color: black;
+  font-size: 20px;
 }
 
 .container-fluid {
-    background-color: black;
-    width: 100%;
+  background-color: black;
+  width: 100%;
 }
-
 .container-fluid h2 {
-    color: red;
-    text-shadow: 0 0 3px #fafafa;
+  color: red;
+  text-shadow: 0 0 3px #fafafa;
 }
-
 .container-fluid .img1 {
-    border: 5px solid rgba(0, 0, 0, 0.331);
-    border-radius: 15px;
-    background-color: gray;
+  border: 5px solid rgba(0, 0, 0, 0.331);
+  border-radius: 15px;
+  background-color: gray;
 }
-
 .container-fluid .img2 {
-    border: 5px solid rgba(0, 0, 0, 0.331);
-    border-radius: 15px;
-    background-color: gray;
+  border: 5px solid rgba(0, 0, 0, 0.331);
+  border-radius: 15px;
+  background-color: gray;
 }
-
 .container-fluid .img3 {
-    border: 5px solid rgba(0, 0, 0, 0.331);
-    border-radius: 15px;
-    background-color: gray;
+  border: 5px solid rgba(0, 0, 0, 0.331);
+  border-radius: 15px;
+  background-color: gray;
 }
 
 .row img {
-    width: auto;
-    height: 180px;
+  width: auto;
+  height: 180px;
 }
 
 h1 {
-    font-size: 35px;
-    font-family: "Madimi One", sans-serif;
+  font-size: 35px;
+  font-family: "Madimi One", sans-serif;
 }
 
 h2 {
-    font-family: "Madimi One", sans-serif;
+  font-family: "Madimi One", sans-serif;
 }
 
 p {
-    font-size: 22px;
-    font-family: "Montserrat Alternates", sans-serif;
-    color: #fafafa;
-    text-shadow: 0 0 7px red;
+  font-size: 22px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #fafafa;
+  text-shadow: 0 0 7px red;
 }
 
 @media only screen and (max-width: 768px) {
-    .call {
-        margin: 40px;
-        margin-top: 140px;
-    }
-
-    .call h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    .container-fluid {
-        width: 100%;
-    }
-
-    .call p {
-        font-size: 14px;
-    }
-
-    .container-fluid h2 {
-        font-size: 25px;
-    }
+  .call {
+    margin: 40px;
+    margin-top: 140px;
+  }
+  .call h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .call p {
+    font-size: 14px;
+  }
+  .container-fluid h2 {
+    font-size: 25px;
+  }
 }
-
 @media only screen and (max-width: 320px) {
-    .call {
-        margin: 60px;
-        height: 350px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    .call h1 {
-        font-size: 18px;
-    }
-
-    .call p {
-        font-size: 16px;
-    }
-
-    .container-fluid h2 {
-        font-size: 18px;
-    }
+  .call {
+    margin: 60px;
+    height: 350px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .call h1 {
+    font-size: 18px;
+  }
+  .call p {
+    font-size: 16px;
+  }
+  .container-fluid h2 {
+    font-size: 18px;
+  }
 }
-
 footer {
-    text-align: end;
-    font-size: 40px;
-    font-family: "Montserrat Alternates", sans-serif;
-    padding: 100px;
-    text-shadow: 0 0 20px #fafafa;
+  text-align: end;
+  font-size: 40px;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 100px;
+  text-shadow: 0 0 20px #fafafa;
 }
 
 .redes a {
-    text-decoration: none;
-    text-align: end;
-    color: #fafafa;
-    font-size: 60px;
-    text-shadow: 0 0 20px #fafafa;
-    margin-top: 35px;
-    margin-left: 20px;
-    margin-inline-end: 10px;
+  text-decoration: none;
+  text-align: end;
+  color: #fafafa;
+  font-size: 60px;
+  text-shadow: 0 0 20px #fafafa;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-inline-end: 10px;
 }
 
 .arriba i {
-    color: #fafafa;
-    text-align: end;
-    margin-left: 100PX;
-    margin-top: 35px;
-    text-shadow: 0 0 20px #fafafa;
-    font-size: 40px;
+  color: #fafafa;
+  text-align: end;
+  margin-left: 100PX;
+  margin-top: 35px;
+  text-shadow: 0 0 20px #fafafa;
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 768px) {
-    footer {
-        font-size: 25px;
-        text-align: center;
-        margin: 7px;
-    }
-
-    .redes a {
-        font-size: 30px;
-        margin: 7px;
-    }
-
-    .arriba i {
-        font-size: 25px;
-        text-align: center;
-        margin-left: 10px;
-        margin: 7px;
-    }
+  footer {
+    font-size: 25px;
+    text-align: center;
+    margin: 7px;
+  }
+  .redes a {
+    font-size: 30px;
+    margin: 7px;
+  }
+  .arriba i {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin: 7px;
+  }
 }
-
 @media only screen and (max-width: 320px) {
-    footer {
-        font-size: 15px;
-        text-align: center;
-        margin-right: 1px;
-    }
-
-    .redes a {
-        font-size: 20px;
-        margin-left: 8px;
-    }
-
-    .arriba i {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+  footer {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 1px;
+  }
+  .redes a {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .arriba i {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
-
 /* comienzo de servicios */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 .motor {
-    display: flex;
-    background-color: gray;
-    color: white;
-    text-shadow: 0 0 7px red;
+  display: flex;
+  background-color: gray;
+  color: white;
+  text-shadow: 0 0 7px red;
 }
 
 h2 {
-    background-color: rgb(128, 128, 128);
-    color: white;
-    text-align: center;
-    text-shadow: 0 0 7px red;
-    margin: 0;
+  background-color: rgb(128, 128, 128);
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 7px red;
+  margin: 0;
 }
 
 img {
-    width: 35%;
-    height: 600px;
+  width: 50%;
+  height: 500px;
 }
 
 .motor h2 {
-    padding: 10px;
-    width: 20%;
-    color: red;
-    text-shadow: 0 0 10px white;
-    font-size: 30px;
+  padding: 20px 30px 30px 30px;
+  width: 50%;
+  color: red;
+  text-shadow: 0 0 10px white;
+  font-size: 50px;
 }
 
 .motor h2 p {
-    color: white;
-    text-shadow: 0 0 7px red;
-    font-size: 17px;
+  color: black;
+}
+
+.container-fluid ol {
+  font-size: 30px;
+  text-shadow: 0 0 7px red;
+  background-color: rgb(63, 61, 61);
 }
 
 span {
-    color: black;
-    font-size: 35px;
-}
-
-.motor h3 {
-    font-size: 15px;
-    width: 35%;
-    padding: 15px;
-    margin: 15px;
-    text-shadow: 0 0 4px red;
+  color: black;
+  font-size: 45px;
 }
 
 .call2 {
-    border: 10px solid red;
-    background-color: rgba(128, 128, 128, 0.712);
-    padding: 10%;
-    margin: 10px;
-    border-radius: 25px;
+  border: 10px solid red;
+  background-color: rgba(128, 128, 128, 0.712);
+  padding: 10%;
+  margin: 10px;
+  border-radius: 25px;
 }
-
 .call2 h1 {
-    font-size: 60px;
-    color: red;
-    text-shadow: 0 0 20px black;
+  font-size: 60px;
+  color: red;
+  text-shadow: 0 0 20px black;
 }
-
 .call2 p {
-    font-size: 35px;
-    color: white;
-    text-shadow: 0 0 20px red;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 20px red;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 @media only screen and (min-width: 1200px) {
-    img {
-        width: 50%;
-    }
-
-    .motor h2 p {
-        font-size: 20px;
-    }
-
-    .motor h3 {
-        font-size: 18px;
-    }
-
-    .call2 h1 {
-        font-size: 80px;
-    }
-
-    .call2 p {
-        font-size: 35px;
-    }
+  img {
+    width: 50%;
+  }
+  .motor h2 p {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+.call2 h1 {
+  font-size: 80px;
+}
+.call2 p {
+  font-size: 35px;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 321px) {
-    img {
-        width: 40%;
-        height: 550px;
-    }
-
-    .motor {
-        height: 550px;
-    }
-
-    .motor h2 {
-        font-size: 20px;
-        text-shadow: 0 0 3px black;
-    }
-
-    .motor h2 p {
-        font-size: 14px;
-    }
-
-    span {
-        font-size: 25px;
-    }
-
-    .motor h3 {
-        font-size: 12px;
-        padding: 12px;
-    }
-
-    .call2 {
-        border: 7px solid red;
-        padding: 8px;
-        margin: 8px;
-    }
-
-    .call2 h1 {
-        font-size: 30px;
-    }
-
-    .call2 p {
-        font-size: 15px;
-    }
+  img {
+    width: 50%;
+    height: 400px;
+  }
+  .motor {
+    height: 400px;
+  }
+  .motor h2 {
+    font-size: 35px;
+  }
+  .motor p {
+    font-size: 20px;
+  }
+  .container-fluid ol {
+    font-size: 20px;
+  }
+  .call2 {
+    height: 300px;
+    padding: 10px;
+  }
+  .call2 h1 {
+    font-size: 60px;
+    margin: 20px 60px 20px;
+  }
+  .call2 p {
+    font-size: 25px;
+    margin: 30px 10px 30px;
+  }
 }
-
 @media only screen and (max-width: 320px) {
-    img {
-        width: 60%;
-        height: 300px;
-    }
-
-    .motor h2 {
-        font-size: 16px;
-        padding: 10px;
-        margin: 1px;
-    }
-
-    span {
-        font-size: 16px;
-    }
-
-    .motor h2 p {
-        font-size: 10px;
-    }
-
-    .motor h3 {
-        display: none;
-        width: 1px;
-        height: 1px;
-    }
-
-    .call2 {
-        border: 4px solid red;
-    }
-
-    .call2 h1 {
-        font-size: 25px;
-    }
-
-    .call2 p {
-        font-size: 15px;
-    }
-
-    .motor p2 {
-        display: none;
-    }
+  img {
+    width: 60%;
+    height: 320px;
+  }
+  .motor h2 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 1px;
+  }
+  span {
+    font-size: 16px;
+  }
+  .container-fluid ol {
+    font-size: 15px;
+  }
+  .motor h2 p {
+    font-size: 10px;
+  }
+  .motor h3 {
+    display: none;
+    width: 1px;
+    height: 1px;
+  }
+  .call2 {
+    border: 4px solid red;
+  }
+  .call2 h1 {
+    font-size: 25px;
+  }
+  .call2 p {
+    font-size: 15px;
+  }
 }
-
 /* fin pagina servicios */
 /* inicio pag donde estamos */
 h3 {
-    color: #fafafa;
-    text-shadow: 0 0 7px #fafafa;
-    font-size: 25px;
+  color: #fafafa;
+  text-shadow: 0 0 7px #fafafa;
+  font-size: 25px;
 }
 
-@media only screen and (max-width: 1200px) {
-    h3 {
-        color: #fafafa;
-        text-shadow: 0 0 7px #fafafa;
-        font-size: 35px;
-    }
-
-    #demo2 {
-        display: none;
-    }
-
-    #demo3 {
-        display: none;
-    }
+button-1 {
+  display: none;
 }
 
-iframe {
-    border-radius: 15px;
-    margin: 20px 300px 20px 100px;
+button-2 {
+  display: none;
 }
 
-@media only screen and (max-width: 768px) {
-    h3 {
-        font-size: 25px;
-    }
-
-    iframe {
-        border-radius: 5px;
-        margin: 50px 50px 50px 50px;
-    }
-
-    #demo1 {
-        display: none;
-    }
-
-    #demo3 {
-        display: none;
-    }
-
-    footer {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    h3 {
-        font-size: 20px;
-    }
-
-    .demo {
-        display: none;
-    }
-}
-
-/* fin pag donde estamos */
-/* inicio pagina galeria */
-.galeria {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
-    padding: 10px;
-    background-color: gray;
-    grid-gap: 20px;
-}
-
-.call a {
-    background-color: rgba(0, 0, 0, 0.619);
-    color: #fafafa;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.call a:hover {
-    background-color: red;
-    color: #fafafa;
-}
-
-.item {
-    border: 5px solid black;
-    background-color: gray;
-    background-size: cover;
-    background-position: center;
-}
-
-.item1 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_44e3be40.jpg);
-}
-
-.item2 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_bb90f10b.jpg);
-}
-
-.item3 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_0f0e5d50.jpg);
-}
-
-.item4 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_8a6c6800.jpg);
-}
-
-.item5 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_97d1463b.jpg);
-}
-
-.item6 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_a1a162f4.jpg);
-}
-
-.item7 {
-    background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_b9f4e8bd.jpg);
-}
-
-.item8 {
-    background-image: url(../multimedia/motor.jpg);
-}
-
-@media only screen and (min-width: 480px) {
-    .galeria {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .galeria {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .item1 {
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-
-    .item2 {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-
-    .item3 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-
-    .item4 {
-        grid-column: 2/4;
-        grid-row: 2/3;
-    }
-
-    .item5 {
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-
-    .item6 {
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-
-    .item7 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-
-    .item8 {
-        grid-column: 2/4;
-        grid-row: 4/5;
-    }
+button-3 {
+  display: none;
 }
 
 @media only screen and (min-width: 1200px) {
-    .galeria {
-        grid-template-columns: repeat(1fr 1fr 1fr 1fr);
-        grid-template-rows: repeat(4, 200px);
-    }
+  h3 {
+    color: #fafafa;
+    text-shadow: 0 0 7px #fafafa;
+    font-size: 35px;
+  }
+  #demo1 {
+    display: flex;
+  }
+  #demo2 {
+    display: none;
+  }
+  #demo3 {
+    display: none;
+  }
+  iframe {
+    border-radius: 15px;
+    margin: 20px 300px 20px 100px;
+  }
 }
-
-/* fin pag galeria */
-* {
+@media only screen and (max-width: 1024px) {
+  #demo1 {
+    display: flex;
+  }
+  #demo2 {
+    display: none;
+  }
+  #demo3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 25px;
+  }
+  iframe {
+    border-radius: 5px;
+    margin: 50px 50px 50px 50px;
+  }
+  #demo1 {
+    display: none;
+  }
+  #demo2 {
+    display: flex;
+  }
+  #demo3 {
+    display: none;
+  }
+  S footer {
     margin: 0;
     padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  h3 {
+    font-size: 20px;
+  }
+  #demo1 {
+    display: none;
+  }
+  #demo2 {
+    display: none;
+  }
+  #demo3 {
+    display: flex;
+  }
+}
+/* fin pag donde estamos */
+/* inicio pagina galeria */
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  padding: 10px;
+  background-color: gray;
+  grid-gap: 20px;
+}
+
+.call a {
+  background-color: rgba(0, 0, 0, 0.619);
+  color: #fafafa;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.call a:hover {
+  background-color: red;
+  color: #fafafa;
+}
+
+.item {
+  border: 5px solid black;
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+}
+
+.item1 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_44e3be40.jpg);
+}
+
+.item2 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_bb90f10b.jpg);
+}
+
+.item3 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_0f0e5d50.jpg);
+}
+
+.item4 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_8a6c6800.jpg);
+}
+
+.item5 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_97d1463b.jpg);
+}
+
+.item6 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_a1a162f4.jpg);
+}
+
+.item7 {
+  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_b9f4e8bd.jpg);
+}
+
+.item8 {
+  background-image: url(../multimedia/motor.jpg);
+}
+
+@media only screen and (min-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .item1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .item7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item8 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .galeria {
+    grid-template-columns: repeat(1fr 1fr 1fr 1fr);
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+/* fin pag galeria */
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.711);
-    text-shadow: 0 0 10px;
-    border-radius: 15px;
-    width: 600px;
-    padding-left: 20px;
-    margin: 40px 150px;
-    font-size: 200%;
-    font-weight: 1000;
+  background-color: rgba(255, 255, 255, 0.711);
+  text-shadow: 0 0 10px;
+  border-radius: 15px;
+  width: 600px;
+  padding-left: 20px;
+  margin: 40px 150px;
+  font-size: 200%;
+  font-weight: 1000;
 }
-
 form input {
-    border-radius: 10%;
-    width: 90%;
-    padding: 1.5%;
+  border-radius: 10%;
+  width: 90%;
+  padding: 1.5%;
 }
-
 form .enviar {
-    text-align: end;
-    margin: 5px 50px 5px 10px;
+  text-align: end;
+  margin: 5px 50px 5px 10px;
 }
 
 .enviar a {
-    color: black;
+  color: black;
 }
 
 @media only screen and (min-width: 1024px) {
-    body {
-        background-color: black;
-    }
-
-    h2 {
-        font-size: 45px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-
-    form {
-        background-color: gray;
-        text-shadow: 0 0 8px black;
-        border-radius: 10px;
-        width: 500px;
-        padding-left: 50px;
-        margin: 80px 100px 80px 250px;
-        font-size: 40px;
-    }
-
-    input {
-        border-radius: 10%;
-        width: 80%;
-        padding: 1%;
-    }
-
-    .enviar {
-        text-align: end;
-        margin: 5px 50px 5px 10px;
-    }
-
-    .enviar a {
-        color: black;
-    }
-
-    footer {
-        margin: 0;
-    }
+  body {
+    background-color: black;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  form {
+    background-color: gray;
+    text-shadow: 0 0 8px black;
+    border-radius: 10px;
+    width: 500px;
+    padding-left: 50px;
+    margin: 80px 100px 80px 250px;
+    font-size: 40px;
+  }
+  input {
+    border-radius: 10%;
+    width: 80%;
+    padding: 1%;
+  }
+  .enviar {
+    text-align: end;
+    margin: 5px 50px 5px 10px;
+  }
+  .enviar a {
+    color: black;
+  }
+  footer {
+    margin: 0;
+  }
 }
-
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: black;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    form {
-        background-color: gray;
-        text-shadow: 0 0 6px black;
-        font-size: 30px;
-        border-radius: 8px;
-        padding-left: 30px;
-        width: 450px;
-        margin: 60px 80px 60px 180px;
-    }
-
-    input {
-        border-radius: 8%;
-    }
-
-    .enviar {
-        text-align: end;
-        margin: 3px 50px 5px;
-    }
-
-    .enviar a {
-        color: black;
-    }
-
-    footer {
-        margin: 0;
-        padding: 0;
-    }
+  body {
+    background-color: black;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  form {
+    background-color: gray;
+    text-shadow: 0 0 6px black;
+    font-size: 30px;
+    border-radius: 8px;
+    padding-left: 30px;
+    width: 450px;
+    margin: 60px 80px 60px 180px;
+  }
+  input {
+    border-radius: 8%;
+  }
+  .enviar {
+    text-align: end;
+    margin: 3px 50px 5px;
+  }
+  .enviar a {
+    color: black;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+  }
 }
-
 @media only screen and (max-width: 320px) {
-    body {
-        background-color: black;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    form {
-        background-color: gray;
-        text-shadow: 0 0 5px black;
-        font-size: 20px;
-        border-radius: 8px;
-        padding-left: 20px;
-        width: 280px;
-        margin: 20px 10px 20px 10px;
-    }
-
-    .enviar {
-        text-align: end;
-        margin: 3px 40px 5px;
-    }
-
-    .enviar a {
-        color: black;
-    }
-
-    footer {
-        margin: 0;
-        padding: 0;
-    }
+  body {
+    background-color: black;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  form {
+    background-color: gray;
+    text-shadow: 0 0 5px black;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    width: 280px;
+    margin: 20px 10px 20px 10px;
+  }
+  .enviar {
+    text-align: end;
+    margin: 3px 40px 5px;
+  }
+  .enviar a {
+    color: black;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+  }
 }
-
 /* fin pag contacto */
 
 /*# sourceMappingURL=estilos.css.map */

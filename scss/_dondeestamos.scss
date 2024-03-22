@@ -5,11 +5,43 @@ h3 {
     text-shadow: 0 0 7px $color-blanco;
     font-size: 25px;
 }
-@media only screen and (max-width: 1200px) {
+button-1 {
+    display: none;
+}
+button-2 {
+    display: none;
+}
+button-3{
+    display: none;
+}
+
+@media only screen and (min-width: 1200px) {
     h3 {
         color: $color-blanco;
         text-shadow: 0 0 7px $color-blanco;
         font-size: 35px;
+    }
+    #demo1{
+        display: flex;
+    }
+
+    #demo2 {
+        display: none;
+    }
+
+    #demo3 {
+        display: none;
+}
+
+iframe {
+    border-radius: 15px;
+    margin: 20px 300px 20px 100px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    #demo1{
+        display: flex;
     }
     #demo2{
         display: none;
@@ -18,41 +50,50 @@ h3 {
         display: none;
     }
 }
-iframe {
-    border-radius: 15px;
-    margin: 20px 300px 20px 100px;
-}
+
 @media only screen and (max-width: 768px) {
-    h3{
-    font-size: 25px;
+    h3 {
+        font-size: 25px;
     }
 
-    iframe{
+    iframe {
         border-radius: 5px;
         margin: 50px 50px 50px 50px;
     }
 
-    #demo1{
+    #demo1 {
         display: none;
     }
-    #demo{
+
+    #demo2 {
         display: flex;
     }
-    #demo3{
+
+    #demo3 {
         display: none;
     }
-    footer{
+S
+    footer {
         margin: 0;
         padding: 0;
     }
-} 
+}
+
 @media only screen and (max-width: 320px) {
-    h3{
+    h3 {
         font-size: 20px;
     }
-    .demo{
+
+    #demo1 {
         display: none;
     }
+    #demo2{
+        display: none;
+    }
+    #demo3{
+        display: flex;
+    }
+
 }
 
 /* fin pag donde estamos */

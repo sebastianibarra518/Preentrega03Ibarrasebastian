@@ -1,4 +1,9 @@
 /* comienzo de servicios */
+* {
+    margin: 0;
+    padding: 0;
+} 
+
 .motor {
     display: flex;
     background-color: gray;
@@ -14,37 +19,33 @@ h2 {
     margin: 0;
 }
 
+
 img {
-    width: 35%;
-    height: 600px;
+    width: 50%;
+    height: 500px;
 }
 
 .motor h2 {
-    padding: 10px;
-    width: 20%;
+    padding: 20px 30px 30px 30px;
+    width: 50%;
     color: red;
     text-shadow: 0 0 10px white;
+    font-size: 50px;
+}
+.motor h2 p{
+    color: $color-negro;
+}
+.container-fluid ol {
     font-size: 30px;
-
-    p {
-        color: white;
-        text-shadow: 0 0 7px red;
-        font-size: 17px;
-    }
-}
-
+    text-shadow: 0 0 7px $color-rojo;
+    background-color: $color-grisoescuro;
+} 
 span {
-    color: black;
-    font-size: 35px;
+    color: $color-negro;
+    font-size: 45px;
 }
 
-.motor h3 {
-    font-size: 15px;
-    width: 35%;
-    padding: 15px;
-    margin: 15px;
-    text-shadow: 0 0 4px red;
-}
+
 
 .call2 {
     border: 10px solid red;
@@ -67,7 +68,7 @@ span {
 }
 
 body {
-    background-color: black;
+    background-color: $color-negro;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -75,8 +76,7 @@ body {
         width: 50%;
     }
 
-    .motor {
-        h2 p {
+    .motor h2 p {
             font-size: 20px;
         }
 
@@ -94,55 +94,48 @@ body {
             font-size: 35px;
         }
     }
-}
+
 
 @media only screen and (max-width: 768px) and (min-width: 321px) {
     img {
-        width: 40%;
-        height: 550px;
+        width: 50%;
+        height: 400px;
     }
 
     .motor {
-        height: 550px;
-
-        h2 {
-            font-size: 20px;
-            text-shadow: 0 0 3px black;
-
-            p {
-                font-size: 14px;
-            }
-        }
+        height: 400px;
     }
 
-    span {
+    .motor h2{
+        font-size: 35px;
+    }
+
+    .motor p{
+        font-size: 20px;
+    }
+    .container-fluid ol{
+        font-size: 20px;
+    }
+
+    .call2{
+        height: 300px;
+        padding: 10px;
+    }
+    .call2 h1{
+        font-size: 60px;
+        margin: 20px 60px 20px;
+    }
+    .call2 p{
         font-size: 25px;
-    }
-
-    .motor h3 {
-        font-size: 12px;
-        padding: 12px;
-    }
-
-    .call2 {
-        border: 7px solid red;
-        padding: 8px;
-        margin: 8px;
-
-        h1 {
-            font-size: 30px;
-        }
-
-        p {
-            font-size: 15px;
-        }
+        margin: 30px 10px 30px;
     }
 }
+
 
 @media only screen and (max-width: 320px) {
     img {
         width: 60%;
-        height: 300px;
+        height: 320px;
     }
 
     .motor h2 {
@@ -155,6 +148,9 @@ body {
         font-size: 16px;
     }
 
+    .container-fluid ol{
+        font-size: 15px;
+    }
     .motor {
         h2 p {
             font-size: 10px;
@@ -179,9 +175,6 @@ body {
         }
     }
 
-    .motor p2 {
-        display: none;
-    }
 }
 
 /* fin pagina servicios */
