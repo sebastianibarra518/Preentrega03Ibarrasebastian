@@ -3,13 +3,18 @@
     margin: 0;
     padding: 0;
 
-} 
+}
+
+body {
+    background-color: $color-grisoescuro;
+}
 
 .motor {
     display: flex;
     background-color: gray;
     color: white;
     text-shadow: 0 0 7px red;
+    height: 550px;
 }
 
 h2 {
@@ -23,29 +28,33 @@ h2 {
 
 img {
     width: 50%;
-    height: 500px;
+    height: 550px;
 }
 
 .motor h2 {
-    padding: 20px 30px 30px 30px;
     width: 50%;
     color: red;
     text-shadow: 0 0 10px white;
     font-size: 50px;
 }
-.motor h2 p{
+
+span {
     color: $color-negro;
-    height: 100px;
-    padding: 50px;
+    font-size: 55px;
 }
+
+.motor h2 p {
+    color: $color-negro;
+    text-shadow: 0 0 7px $color-rojo;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10;
+}
+
 .container-fluid ol {
     font-size: 30px;
     text-shadow: 0 0 7px $color-rojo;
     background-color: $color-grisoescuro;
-} 
-span {
-    color: $color-negro;
-    font-size: 45px;
 }
 
 .call2 {
@@ -68,36 +77,7 @@ span {
     }
 }
 
-body {
-    background-color: $color-negro;
-}
-
-@media only screen and (min-width: 1200px) {
-    img {
-        width: 50%;
-    }
-
-    .motor h2 p {
-            font-size: 20px;
-        }
-
-        h3 {
-            font-size: 18px;
-        }
-    }
-
-    .call2 {
-        h1 {
-            font-size: 80px;
-        }
-
-        p {
-            font-size: 35px;
-        }
-    }
-
-
-@media only screen and (max-width: 768px) and (min-width: 321px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
     img {
         width: 50%;
         height: 400px;
@@ -107,35 +87,26 @@ body {
         height: 400px;
     }
 
-    .motor h2{
+    .motor h2 {
         font-size: 35px;
     }
 
-    .motor p{
-        font-size: 20px;
-    }
-    .container-fluid ol{
-        font-size: 20px;
+    span {
+        font-size: 38px;
     }
 
-    .call2{
-        height: 300px;
-        padding: 10px;
-    }
-    .call2 h1{
-        font-size: 60px;
-        margin: 20px 60px 20px;
-    }
-    .call2 p{
-        font-size: 25px;
-        margin: 30px 10px 30px;
+    .motor h2 p {
+        font-size: 22px;
     }
 }
 
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) and (min-width: 320px) {
     img {
-        width: 60%;
+        width: 50%;
+        height: 320px;
+    }
+
+    .motor {
         height: 320px;
     }
 
@@ -149,19 +120,14 @@ body {
         font-size: 16px;
     }
 
-    .container-fluid ol{
+    .container-fluid ol {
         font-size: 15px;
     }
-    .motor {
-        h2 p {
-            font-size: 10px;
-        }
 
-        h3 {
-            display: none;
-            width: 1px;
-            height: 1px;
-        }
+    .motor h2 p {
+        font-size: 12px;
+        padding: 0;
+        color: $color-blanco;
     }
 
     .call2 {
@@ -175,7 +141,9 @@ body {
             font-size: 15px;
         }
     }
-
 }
+
+
+
 
 /* fin pagina servicios */

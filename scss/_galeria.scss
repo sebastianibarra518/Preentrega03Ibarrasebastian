@@ -25,11 +25,13 @@
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
+    filter: grayscale(90%);
     transition: all 0.8s;
 }
 
 .item:hover{
     background-size: 110%;
+    filter: grayscale(0%);
 }
 
 .item1 {

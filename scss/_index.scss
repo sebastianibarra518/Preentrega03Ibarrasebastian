@@ -5,6 +5,12 @@
         background-color: $color-gris;
 }
 
+@mixin ancla2 {
+    border: 3px solid $color-grisoescuro;
+    border-radius: 10px;
+    background-color: $color-blanco;
+}
+
 section img {
     height: auto;
     max-width: 280PX;
