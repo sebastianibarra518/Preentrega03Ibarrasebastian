@@ -246,6 +246,8 @@ img {
 
 .motor h2 p {
   color: black;
+  height: 100px;
+  padding: 50px;
 }
 
 .container-fluid ol {
@@ -453,9 +455,10 @@ button-3 {
 /* fin pag donde estamos */
 /* inicio pagina galeria */
 .galeria {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 200px);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 300px);
   padding: 10px;
   background-color: gray;
   grid-gap: 20px;
@@ -463,20 +466,23 @@ button-3 {
 
 .call a {
   background-color: rgba(0, 0, 0, 0.619);
-  color: #fafafa;
+  color: red;
   text-decoration: none;
   padding: 10px 20px;
-}
-.call a:hover {
-  background-color: red;
-  color: #fafafa;
 }
 
 .item {
   border: 5px solid black;
-  background-color: gray;
-  background-size: cover;
+  border-radius: 10px;
+  background-color: rgb(63, 61, 61);
+  background-size: 85%;
+  background-repeat: no-repeat;
   background-position: center;
+  transition: all 0.8s;
+}
+
+.item:hover {
+  background-size: 110%;
 }
 
 .item1 {
@@ -511,15 +517,14 @@ button-3 {
   background-image: url(../multimedia/motor.jpg);
 }
 
-@media only screen and (min-width: 480px) {
-  .galeria {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 200px);
-  }
+.item9 {
+  background-image: url(../multimedia/mesadetrabajo.jpg);
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .galeria {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 300px);
   }
   .item1 {
     grid-column: 1/3;
@@ -550,14 +555,18 @@ button-3 {
     grid-row: 4/5;
   }
   .item8 {
-    grid-column: 2/4;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .item9 {
+    grid-column: 3/4;
     grid-row: 4/5;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .galeria {
-    grid-template-columns: repeat(1fr 1fr 1fr 1fr);
-    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 250px);
   }
 }
 /* fin pag galeria */

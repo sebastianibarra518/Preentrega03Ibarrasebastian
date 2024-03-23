@@ -1,9 +1,10 @@
 /* inicio pagina galeria */
 
 .galeria {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
     padding: 10px;
     background-color: $color-gris;
     grid-gap: 20px;
@@ -11,21 +12,24 @@
 
 .call a {
     background-color: rgba(0, 0, 0, 0.619);
-    color: $color-blanco;
+    color: $color-rojo;
     text-decoration: none;
     padding: 10px 20px;
 
-    &:hover {
-        background-color: $color-rojo;
-        color: $color-blanco;
-    }
 }
 
 .item {
     border: 5px solid $color-negro;
-    background-color: $color-gris;
-    background-size: cover;
+    border-radius: 10px;
+    background-color: $color-grisoescuro;
+    background-size: 85%;
+    background-repeat: no-repeat;
     background-position: center;
+    transition: all 0.8s;
+}
+
+.item:hover{
+    background-size: 110%;
 }
 
 .item1 {
@@ -60,16 +64,13 @@
     background-image: url(../multimedia/motor.jpg);
 }
 
-@media only screen and (min-width: 480px) {
-    .galeria {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
+.item9 {
+    background-image: url(../multimedia/mesadetrabajo.jpg);
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .galeria {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 300px);
     }
 
     .item1 {
@@ -108,16 +109,21 @@
     }
 
     .item8 {
-        grid-column: 2/4;
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .item9 {
+        grid-column: 3/4;
         grid-row: 4/5;
     }
 }
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 320px) and (max-width: 767px){
     .galeria {
-        grid-template-columns: repeat(1fr 1fr 1fr 1fr);
-        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 250px);
     }
 }
+
+
 
 /* fin pag galeria */

@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+
 } 
 
 .motor {
@@ -34,6 +35,8 @@ img {
 }
 .motor h2 p{
     color: $color-negro;
+    height: 100px;
+    padding: 50px;
 }
 .container-fluid ol {
     font-size: 30px;
@@ -44,8 +47,6 @@ span {
     color: $color-negro;
     font-size: 45px;
 }
-
-
 
 .call2 {
     border: 10px solid red;

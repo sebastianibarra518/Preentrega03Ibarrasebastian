@@ -1,3 +1,4 @@
 agregre @media a las paginas faltantes 
 utilice variables y mixin en pagina index
 modifique mapa a px de cada MC
+arreglo de pagina en media querie
