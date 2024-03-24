@@ -1,4 +1,13 @@
-agregre @media a las paginas faltantes 
-utilice variables y mixin en pagina index
-modifique mapa a px de cada MC
-arreglo de pagina en media querie
+agregre @media a las paginas faltantes.
+
+utilice variables y mixin en pagina index.
+
+modifique mapa a px de cada Media querie.
+
+arreglo de pagina en media querie.
+
+agregro animacion a galeria.
+
+agrego filtro en imagenes de galeria.
+
+agrege etiqueta meta a todas las paginas html.
