@@ -19,17 +19,13 @@ section img {
   padding: 10px;
 }
 
-body {
-  background-color: #fafafa;
-}
-
 .navbar {
   min-height: 80px;
   position: sticky;
 }
 .navbar a {
-  text-shadow: 0 0 5px blue;
-  font-size: 15px;
+  color: #fafafa;
+  font-size: 18px;
   font-family: "Montserrat Alternates", sans-serif;
 }
 .navbar a:hover {
@@ -41,28 +37,26 @@ body {
   background-image: url(../multimedia/FONDO.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
+  height: fit-content;
   width: 100%;
 }
 
 .call {
-  margin-top: 220px;
+  height: fit-content;
   text-align: center;
-  text-shadow: 0 0 15px red;
+  text-shadow: 0 0 7px red;
   color: black;
   background-color: rgba(255, 255, 255, 0.452);
-  padding: 25px;
-  border: 7px solid rgba(255, 255, 255, 0.622);
+  border: 5px solid rgba(255, 255, 255, 0.622);
   border-radius: 15px;
   padding: 30px;
-  margin: 120px;
 }
 .call h1 {
-  font-size: 35px;
+  font-size: 18px;
 }
 .call p {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .container-fluid {
@@ -72,7 +66,6 @@ body {
 }
 .container-fluid h2 {
   color: red;
-  text-shadow: 0 0 3px #fafafa;
 }
 .container-fluid .img1 {
   border: 5px solid rgba(0, 0, 0, 0.331);
@@ -108,62 +101,23 @@ p {
   font-size: 22px;
   font-family: "Montserrat Alternates", sans-serif;
   color: #fafafa;
-  text-shadow: 0 0 7px red;
+  text-shadow: 0 0 5px black;
 }
 
-@media only screen and (max-width: 768px) {
-  .call {
-    margin: 40px;
-    margin-top: 140px;
-  }
-  .call h1 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 14px;
-  }
-  .container-fluid {
-    width: 100%;
-  }
-  .call p {
-    font-size: 14px;
-  }
-  .container-fluid h2 {
-    font-size: 25px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .call {
-    margin: 60px;
-    height: 350px;
-  }
-  p {
-    font-size: 12px;
-  }
-  .call h1 {
-    font-size: 18px;
-  }
-  .call p {
-    font-size: 16px;
-  }
-  .container-fluid h2 {
-    font-size: 18px;
-  }
-}
 footer {
-  text-align: end;
-  font-size: 40px;
+  text-align: center;
+  font-size: 30px;
   font-family: "Montserrat Alternates", sans-serif;
   padding: 100px;
-  text-shadow: 0 0 20px #fafafa;
+  text-shadow: 0 0 7px red;
 }
 
 .redes a {
   text-decoration: none;
   text-align: end;
   color: #fafafa;
-  font-size: 60px;
-  text-shadow: 0 0 20px #fafafa;
+  font-size: 30px;
+  text-shadow: 0 0 7px red;
   margin-top: 35px;
   margin-left: 20px;
   margin-inline-end: 10px;
@@ -171,44 +125,136 @@ footer {
 
 .arriba i {
   color: #fafafa;
-  text-align: end;
-  margin-left: 100PX;
+  text-align: center;
+  margin-left: 10PX;
   margin-top: 35px;
-  text-shadow: 0 0 20px #fafafa;
+  text-shadow: 0 0 10px red;
   font-size: 40px;
 }
 
-@media only screen and (max-width: 768px) {
-  footer {
-    font-size: 25px;
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .call {
+    margin: 50px;
+    padding: 10px;
     text-align: center;
-    margin: 7px;
   }
-  .redes a {
-    font-size: 30px;
-    margin: 7px;
+  .call h1 {
+    font-size: 20px;
   }
-  .arriba i {
+  .call p {
+    font-size: 18px;
+  }
+  .container-fluid h2 {
     font-size: 25px;
-    text-align: center;
-    margin-left: 10px;
-    margin: 7px;
+  }
+  .container-fluid p {
+    font-size: 16px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar a {
+    font-size: 14px;
+  }
+  .call {
+    margin: 50px;
+    padding: 40px;
+  }
+  .call h1 {
+    font-size: 28px;
+  }
+  .call p {
+    font-size: 22px;
+  }
+  .container-fluid h2 {
+    font-size: 30px;
+  }
+  .container-fluid p {
+    font-size: 20px;
+  }
   footer {
-    font-size: 15px;
-    text-align: center;
-    margin-right: 1px;
+    font-size: 40px;
   }
   .redes a {
-    font-size: 20px;
-    margin-left: 8px;
+    font-size: 40px;
   }
   .arriba i {
+    font-size: 45px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call {
+    margin: 50px;
+    padding: 50px;
+  }
+  .call h1 {
+    font-size: 32px;
+  }
+  .call p {
+    font-size: 25px;
+  }
+  .container-fluid h2 {
+    font-size: 35px;
+  }
+  .container-fluid p {
+    font-size: 25px;
+  }
+  footer {
+    font-size: 45px;
+  }
+  .redes a {
+    font-size: 42px;
+  }
+  .arriba i {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .call {
+    margin: 100px;
+    padding: 50px;
+  }
+  .call h1 {
+    font-size: 35px;
+  }
+  .call p {
+    font-size: 27px;
+  }
+  .container-fluid h2 {
+    font-size: 30px;
+  }
+  .container-fluid p {
     font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px;
+  }
+  footer {
+    font-size: 40px;
+  }
+  .redes a {
+    font-size: 50px;
+  }
+  .arriba i {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .call {
+    margin: 120px;
+    padding: 70px;
+  }
+  .call h1 {
+    font-size: 40px;
+  }
+  .call p {
+    font-size: 30px;
+  }
+  footer {
+    font-size: 45px;
+  }
+  .redes a {
+    font-size: 53px;
+    padding: 20px;
+  }
+  .arriba i {
+    font-size: 62px;
   }
 }
 /* comienzo de servicios */
