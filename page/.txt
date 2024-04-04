@@ -15,3 +15,5 @@ agrege etiqueta meta a todas las paginas html.
 agrego etiqueta meta keywords en los 5 html.
 
 arreglo media querie pagina contacto para vista movil
+
+arreglo media querie pagina index 
