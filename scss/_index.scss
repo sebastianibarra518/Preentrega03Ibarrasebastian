@@ -1,8 +1,13 @@
 /* comienzo index */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 @mixin anclas {
-    border: 5px solid rgba(0, 0, 0, 0.331);
-        border-radius: 15px;
-        background-color: $color-gris;
+        border: 5px solid rgba(0, 0, 0, 0.61);
+        background-color: $color-gris;   
         
 }
 
@@ -37,6 +42,16 @@ section img {
     }
 }
 
+.navbar button {
+    margin: 20px;
+    height: auto;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .jumbotron {
     background-image: url(../multimedia/FONDO.jpg);
     background-size: cover;
@@ -48,10 +63,10 @@ section img {
 .call {
     height: fit-content;
     text-align: center;
-    text-shadow: 0 0 7px $color-rojo;
+    text-shadow: 0 0 5px $color-rojo;
     color: $color-negro;
     background-color: rgba(255, 255, 255, 0.452);
-    border: 5px solid rgba(255, 255, 255, 0.622);
+    border: 5px solid rgba(255, 255, 255, 0.438);
     border-radius: 15px;
     padding: 30px;
 
@@ -62,16 +77,16 @@ section img {
     p {
         color: $color-negro;
         font-size: 15px;
+        text-shadow: none;
     }
 }
 
 .container-fluid {
-    background-color: $color-negro;
-    width: 100%;
+    height: 100%;
     overflow: hidden;
 
     h2 {
-        color: $color-rojo;
+        color: $color-negro;
     }
 
     .img1 {
@@ -87,6 +102,7 @@ section img {
     }
 }
 
+
 .row img {
     width: auto;
     height: 180px;
@@ -99,14 +115,16 @@ h1 {
 
 h2 {
     font-family: "Madimi One", sans-serif;
+    margin: 15px;
 }
 
 p {
     font-size: 22px;
     font-family: "Montserrat Alternates", sans-serif;
     color: $color-blanco;
-    text-shadow: 0 0 5px $color-negro;
+    margin: 15px;
 }
+
 footer {
     text-align: center;
     font-size: 30px;
@@ -136,6 +154,10 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {  
+
+    .navbar a {
+        font-size: 14px;
+    }
 
     .call {
         margin: 50px;
@@ -169,8 +191,9 @@ footer {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
     .navbar a {
-        font-size: 12px;
+        font-size: 20px;
     }
     .call {
         margin: 50px;

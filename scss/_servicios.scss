@@ -8,6 +8,10 @@ body {
     background-color: $color-grisoescuro;
 }
 
+.jumbotron { 
+    width: 100%;
+}
+
 
 .motor {
     display: flex;
@@ -46,9 +50,12 @@ span {
     color: $color-negro;
     font-size: 30px;
     padding: 10px;
-    margin: 10;
+    margin: 10px;
 }
 
+.container-fluid {
+    overflow: hidden;
+}
 .container-fluid ol {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 30px;
@@ -302,7 +309,6 @@ span {
     .call2 {
         margin: 40px 100px;
     }
-
 }
 
 

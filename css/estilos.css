@@ -11,6 +11,11 @@
 font-family: "Montserrat Alternates", sans-serif;
 font-family: "Montserrat Alternates", sans-serif; */
 /* comienzo index */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 section img {
   height: auto;
   max-width: 280PX;
@@ -34,6 +39,16 @@ section img {
   text-shadow: 0 0 5px #fafafa;
 }
 
+.navbar button {
+  margin: 20px;
+  height: auto;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .jumbotron {
   background-image: url(../multimedia/FONDO.jpg);
   background-size: cover;
@@ -45,10 +60,10 @@ section img {
 .call {
   height: fit-content;
   text-align: center;
-  text-shadow: 0 0 7px red;
+  text-shadow: 0 0 5px red;
   color: black;
   background-color: rgba(255, 255, 255, 0.452);
-  border: 5px solid rgba(255, 255, 255, 0.622);
+  border: 5px solid rgba(255, 255, 255, 0.438);
   border-radius: 15px;
   padding: 30px;
 }
@@ -58,29 +73,26 @@ section img {
 .call p {
   color: black;
   font-size: 15px;
+  text-shadow: none;
 }
 
 .container-fluid {
-  background-color: black;
-  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 .container-fluid h2 {
-  color: red;
+  color: black;
 }
 .container-fluid .img1 {
-  border: 5px solid rgba(0, 0, 0, 0.331);
-  border-radius: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.61);
   background-color: gray;
 }
 .container-fluid .img2 {
-  border: 5px solid rgba(0, 0, 0, 0.331);
-  border-radius: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.61);
   background-color: gray;
 }
 .container-fluid .img3 {
-  border: 5px solid rgba(0, 0, 0, 0.331);
-  border-radius: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.61);
   background-color: gray;
 }
 
@@ -96,13 +108,14 @@ h1 {
 
 h2 {
   font-family: "Madimi One", sans-serif;
+  margin: 15px;
 }
 
 p {
   font-size: 22px;
   font-family: "Montserrat Alternates", sans-serif;
   color: #fafafa;
-  text-shadow: 0 0 5px black;
+  margin: 15px;
 }
 
 footer {
@@ -134,6 +147,9 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
+  .navbar a {
+    font-size: 14px;
+  }
   .call {
     margin: 50px;
     padding: 10px;
@@ -163,7 +179,7 @@ footer {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .navbar a {
-    font-size: 12px;
+    font-size: 20px;
   }
   .call {
     margin: 50px;
@@ -279,6 +295,10 @@ body {
   background-color: rgb(63, 61, 61);
 }
 
+.jumbotron {
+  width: 100%;
+}
+
 .motor {
   display: flex;
   background-color: gray;
@@ -315,7 +335,11 @@ span {
   color: black;
   font-size: 30px;
   padding: 10px;
-  margin: 10;
+  margin: 10px;
+}
+
+.container-fluid {
+  overflow: hidden;
 }
 
 .container-fluid ol {
@@ -530,7 +554,7 @@ span {
   font-family: "Montserrat Alternates", sans-serif;
   color: #fafafa;
   font-size: 25px;
-  padding: 10px;
+  padding: 15px;
   text-shadow: none;
 }
 
@@ -561,7 +585,7 @@ button-3 {
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .desc4 h3 {
     font-size: 16px;
-    margin: 8px;
+    padding: 10px;
   }
   iframe {
     border-radius: 10px;
