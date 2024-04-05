@@ -28,6 +28,7 @@ section img {
         color: $color-blanco;
         font-size: 18px;
         font-family: "Montserrat Alternates", sans-serif;
+        margin: 20px;
 
         &:hover {
             color: $color-naranja;
@@ -135,6 +136,7 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {  
+
     .call {
         margin: 50px;
         padding: 10px;
@@ -154,11 +156,21 @@ footer {
     .container-fluid p {
         font-size: 16px;
     }
+
+    footer {
+        font-size: 25px;
+    }
+    .redes a {
+        font-size: 25px;
+    }
+    .arriba i {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .navbar a {
-        font-size: 14px;
+        font-size: 12px;
     }
     .call {
         margin: 50px;
@@ -177,13 +189,13 @@ footer {
         font-size: 20px;
     }
     footer {
-        font-size: 40px;
+        font-size: 30px;
     }
     .redes a {
-        font-size: 40px;
+        font-size: 30px;
     }
     .arriba i {
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 
@@ -206,11 +218,13 @@ footer {
     }
 
     footer {
-        font-size: 45px;
-    }
+        font-size: 35px;
+        padding: 50px;
+    } 
 
     .redes a {
         font-size: 42px;
+        padding: 40px;
     }
 
     .arriba i {

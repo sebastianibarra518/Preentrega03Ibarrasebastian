@@ -1,9 +1,11 @@
 /* inicio pag donde estamos */
 
-h3 {
+.desc4 h3 {
+    font-family: "Montserrat Alternates", sans-serif;
     color: $color-blanco;
-    text-shadow: 0 0 7px $color-blanco;
     font-size: 25px;
+    padding: 10px;
+    text-shadow: none;
 }
 button-1 {
     display: none;
@@ -15,84 +17,129 @@ button-3{
     display: none;
 }
 
-@media only screen and (min-width: 1200px) {
-    h3 {
-        color: $color-blanco;
-        text-shadow: 0 0 7px $color-blanco;
-        font-size: 35px;
-    }
-    #demo1{
-        display: flex;
+#demo1 {
+    background-color: $color-negro;
+}
+
+#demo2 {
+    background-color: $color-negro;
+}
+
+#demo3 {
+    background-color: $color-negro;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .desc4 h3 {
+        font-size: 16px;
+        margin: 8px;
     }
 
-    #demo2 {
+    iframe {
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #demo1 {
         display: none;
-    }
-
-    #demo3 {
-        display: none;
-}
-
-iframe {
-    border-radius: 15px;
-    margin: 20px 300px 20px 100px;
-}
-}
-
-@media only screen and (max-width: 1024px) {
-    #demo1{
-        display: flex;
     }
     #demo2{
-        display: none;
+        display: flex;
     }
     #demo3{
         display: none;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    h3 {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .desc4 h3 {
+        font-size: 25px;
+        text-shadow: none;
+    }
+
+    iframe {
+        border-radius: 10px;
+        margin: 50px 50px 50px 50px;
+        padding: 15px;
+    }
+
+    #demo1 {
+        display: none;
+    }
+
+    #demo2 {
+        display: flex;
+    }
+
+    #demo3 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .desc4 h3 {
         font-size: 25px;
     }
 
     iframe {
-        border-radius: 5px;
-        margin: 50px 50px 50px 50px;
+        border-radius: 8px;
+        margin: 80px ;
+    }
+
+    #demo1{
+        display: none;
+    }
+    #demo2{
+        display: flex;
+    }
+    #demo3{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .desc4 h3 {
+        font-size: 30px;
+    }
+
+    iframe {
+        border-radius: 15px;
+        padding: 80px;
+        margin: 80px;
     }
 
     #demo1 {
-        display: none;
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .desc4 h3 {
+        color: $color-blanco;
+        font-size: 35px;
+    }
+
+    iframe {
+        border-radius: 15px;
+        margin: 20px 300px 20px 100px;
+    }
+
+    #demo1{
+        display: flex;
     }
 
     #demo2 {
-        display: flex;
+        display: none;
     }
 
     #demo3 {
         display: none;
-    }
-S
-    footer {
-        margin: 0;
-        padding: 0;
-    }
 }
-
-@media only screen and (max-width: 320px) {
-    h3 {
-        font-size: 20px;
-    }
-
-    #demo1 {
-        display: none;
-    }
-    #demo2{
-        display: none;
-    }
-    #demo3{
-        display: flex;
-    }
 
 }
 

@@ -2,26 +2,25 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     background-color: $color-grisoescuro;
 }
 
+
 .motor {
     display: flex;
     background-color: gray;
     color: white;
-    text-shadow: 0 0 7px red;
-    height: 550px;
+    height: auto;
+    padding: 10px;
 }
 
 h2 {
     background-color: rgb(128, 128, 128);
     color: white;
     text-align: center;
-    text-shadow: 0 0 7px red;
     margin: 0;
 }
 
@@ -45,37 +44,268 @@ span {
 
 .motor h2 p {
     color: $color-negro;
-    text-shadow: 0 0 7px $color-rojo;
     font-size: 30px;
     padding: 10px;
     margin: 10;
 }
 
 .container-fluid ol {
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 30px;
-    text-shadow: 0 0 7px $color-rojo;
-    background-color: $color-grisoescuro;
+    color: $color-blanco;
+    background-color: $color-negro;
 }
 
 .call2 {
-    border: 10px solid red;
+    border: 6px solid $color-rojo;
     background-color: rgba(128, 128, 128, 0.712);
     padding: 10%;
-    margin: 10px;
+    margin: 30px;
     border-radius: 25px;
 
     h1 {
         font-size: 60px;
-        color: red;
+        color: $color-rojo;
         text-shadow: 0 0 20px black;
     }
 
     p {
         font-size: 35px;
         color: white;
-        text-shadow: 0 0 20px red;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .motor {
+        display: block;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .motor h2 {
+        width: 100%;
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+    .motor h2 p {
+        font-size: 22px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .container-fluid h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .container-fluid ol {
+        font-size: 20px;
+    }
+
+    .call2 h1 {
+        font-size: 40px;
+    }
+
+    .call2 p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    h2 {
+        font-size: 40px;
+    }
+
+    .motor {
+        display: block;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .motor h2 {
+        width: 100%;
+        font-size: 38px;
+        padding: 20px;
+    }
+
+    span {
+        font-size: 40px;
+    }
+
+    .motor h2 p {
+        font-size: 32px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container-fluid h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container-fluid ol {
+        font-size: 25px;
+    }
+
+    .call2 h1 {
+        font-size: 45px;
+    }
+
+    .call2 p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    img {
+        width:  60%;
+        height: auto;
+    }
+
+    .motor h2 {
+        width: 100%;
+        font-size: 32px;
+        padding: 15px;
+    }
+
+    span {
+        font-size: 35px;
+    }
+
+    .motor h2 p {
+        font-size: 22px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .container-fluid h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container-fluid ol {
+        font-size: 25px;
+    }
+
+    .call2 {
+        margin: 40px 80px;
+    }
+
+    .call2 h1 {
+        font-size: 45px;
+    }
+
+    .call2 p {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    h2 {
+        font-size: 45px;
+    }
+
+    img {
+        width:  60%;
+        height: auto;
+    }
+
+    .motor h2 {
+        width: 100%;
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    span {
+        font-size: 45px;
+    }
+
+    .motor h2 p {
+        font-size: 30px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .container-fluid h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container-fluid ol {
+        font-size: 30px;
+    }
+
+    .call2 h1 {
+        font-size: 50px;
+    }
+
+    .call2 p {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    h2 {
+        font-size: 50px;
+    }
+
+    img {
+        width:  70%;
+        height: auto;
+    }
+
+    .container-fluid h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .container-fluid ol {
+        font-size: 35px;
+    }
+
+    .call2 {
+        margin: 40px 100px;
+    }
+
+}
+
+
 
 
 

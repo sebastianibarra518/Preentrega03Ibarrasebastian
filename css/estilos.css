@@ -27,6 +27,7 @@ section img {
   color: #fafafa;
   font-size: 18px;
   font-family: "Montserrat Alternates", sans-serif;
+  margin: 20px;
 }
 .navbar a:hover {
   color: orangered;
@@ -150,10 +151,19 @@ footer {
   .container-fluid p {
     font-size: 16px;
   }
+  footer {
+    font-size: 25px;
+  }
+  .redes a {
+    font-size: 25px;
+  }
+  .arriba i {
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .navbar a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .call {
     margin: 50px;
@@ -172,13 +182,13 @@ footer {
     font-size: 20px;
   }
   footer {
-    font-size: 40px;
+    font-size: 30px;
   }
   .redes a {
-    font-size: 40px;
+    font-size: 30px;
   }
   .arriba i {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -199,10 +209,12 @@ footer {
     font-size: 25px;
   }
   footer {
-    font-size: 45px;
+    font-size: 35px;
+    padding: 50px;
   }
   .redes a {
     font-size: 42px;
+    padding: 40px;
   }
   .arriba i {
     font-size: 50px;
@@ -271,15 +283,14 @@ body {
   display: flex;
   background-color: gray;
   color: white;
-  text-shadow: 0 0 7px red;
-  height: 550px;
+  height: auto;
+  padding: 10px;
 }
 
 h2 {
   background-color: rgb(128, 128, 128);
   color: white;
   text-align: center;
-  text-shadow: 0 0 7px red;
   margin: 0;
 }
 
@@ -302,23 +313,23 @@ span {
 
 .motor h2 p {
   color: black;
-  text-shadow: 0 0 7px red;
   font-size: 30px;
   padding: 10px;
   margin: 10;
 }
 
 .container-fluid ol {
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 30px;
-  text-shadow: 0 0 7px red;
-  background-color: rgb(63, 61, 61);
+  color: #fafafa;
+  background-color: black;
 }
 
 .call2 {
-  border: 10px solid red;
+  border: 6px solid red;
   background-color: rgba(128, 128, 128, 0.712);
   padding: 10%;
-  margin: 10px;
+  margin: 30px;
   border-radius: 25px;
 }
 .call2 h1 {
@@ -329,15 +340,198 @@ span {
 .call2 p {
   font-size: 35px;
   color: white;
-  text-shadow: 0 0 20px red;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .motor {
+    display: block;
+    height: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .motor h2 {
+    width: 100%;
+    font-size: 28px;
+    padding: 10px;
+  }
+  span {
+    font-size: 30px;
+  }
+  .motor h2 p {
+    font-size: 22px;
+    padding: 10px;
+    margin: 0;
+  }
+  .container-fluid h3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .container-fluid ol {
+    font-size: 20px;
+  }
+  .call2 h1 {
+    font-size: 40px;
+  }
+  .call2 p {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  h2 {
+    font-size: 40px;
+  }
+  .motor {
+    display: block;
+    height: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .motor h2 {
+    width: 100%;
+    font-size: 38px;
+    padding: 20px;
+  }
+  span {
+    font-size: 40px;
+  }
+  .motor h2 p {
+    font-size: 32px;
+    padding: 20px;
+    margin: 0;
+  }
+  .container-fluid h3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .container-fluid ol {
+    font-size: 25px;
+  }
+  .call2 h1 {
+    font-size: 45px;
+  }
+  .call2 p {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 40px;
+  }
+  img {
+    width: 60%;
+    height: auto;
+  }
+  .motor h2 {
+    width: 100%;
+    font-size: 32px;
+    padding: 15px;
+  }
+  span {
+    font-size: 35px;
+  }
+  .motor h2 p {
+    font-size: 22px;
+    padding: 15px;
+    margin: 0;
+  }
+  .container-fluid h3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .container-fluid ol {
+    font-size: 25px;
+  }
+  .call2 {
+    margin: 40px 80px;
+  }
+  .call2 h1 {
+    font-size: 45px;
+  }
+  .call2 p {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h2 {
+    font-size: 45px;
+  }
+  img {
+    width: 60%;
+    height: auto;
+  }
+  .motor h2 {
+    width: 100%;
+    font-size: 40px;
+    padding: 15px;
+  }
+  span {
+    font-size: 45px;
+  }
+  .motor h2 p {
+    font-size: 30px;
+    padding: 15px;
+    margin: 0;
+  }
+  .container-fluid h3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .container-fluid ol {
+    font-size: 30px;
+  }
+  .call2 h1 {
+    font-size: 50px;
+  }
+  .call2 p {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 50px;
+  }
+  img {
+    width: 70%;
+    height: auto;
+  }
+  .container-fluid h3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+  }
+  .container-fluid ol {
+    font-size: 35px;
+  }
+  .call2 {
+    margin: 40px 100px;
+  }
+}
 /* fin pagina servicios */
 /* inicio pag donde estamos */
-h3 {
+.desc4 h3 {
+  font-family: "Montserrat Alternates", sans-serif;
   color: #fafafa;
-  text-shadow: 0 0 7px #fafafa;
   font-size: 25px;
+  padding: 10px;
+  text-shadow: none;
 }
 
 button-1 {
@@ -352,27 +546,97 @@ button-3 {
   display: none;
 }
 
-@media only screen and (min-width: 1200px) {
-  h3 {
-    color: #fafafa;
-    text-shadow: 0 0 7px #fafafa;
-    font-size: 35px;
+#demo1 {
+  background-color: black;
+}
+
+#demo2 {
+  background-color: black;
+}
+
+#demo3 {
+  background-color: black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .desc4 h3 {
+    font-size: 16px;
+    margin: 8px;
+  }
+  iframe {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #demo1 {
+    display: none;
+  }
+  #demo2 {
+    display: flex;
+  }
+  #demo3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .desc4 h3 {
+    font-size: 25px;
+    text-shadow: none;
+  }
+  iframe {
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    padding: 15px;
+  }
+  #demo1 {
+    display: none;
+  }
+  #demo2 {
+    display: flex;
+  }
+  #demo3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .desc4 h3 {
+    font-size: 25px;
+  }
+  iframe {
+    border-radius: 8px;
+    margin: 80px;
+  }
+  #demo1 {
+    display: none;
+  }
+  #demo2 {
+    display: flex;
+  }
+  #demo3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .desc4 h3 {
+    font-size: 30px;
+  }
+  iframe {
+    border-radius: 15px;
+    padding: 80px;
+    margin: 80px;
   }
   #demo1 {
     display: flex;
   }
-  #demo2 {
-    display: none;
-  }
-  #demo3 {
-    display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .desc4 h3 {
+    color: #fafafa;
+    font-size: 35px;
   }
   iframe {
     border-radius: 15px;
     margin: 20px 300px 20px 100px;
   }
-}
-@media only screen and (max-width: 1024px) {
   #demo1 {
     display: flex;
   }
@@ -381,46 +645,15 @@ button-3 {
   }
   #demo3 {
     display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  h3 {
-    font-size: 25px;
-  }
-  iframe {
-    border-radius: 5px;
-    margin: 50px 50px 50px 50px;
-  }
-  #demo1 {
-    display: none;
-  }
-  #demo2 {
-    display: flex;
-  }
-  #demo3 {
-    display: none;
-  }
-  S footer {
-    margin: 0;
-    padding: 0;
-  }
-}
-@media only screen and (max-width: 320px) {
-  h3 {
-    font-size: 20px;
-  }
-  #demo1 {
-    display: none;
-  }
-  #demo2 {
-    display: none;
-  }
-  #demo3 {
-    display: flex;
   }
 }
 /* fin pag donde estamos */
 /* inicio pagina galeria */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .galeria {
   width: 100%;
   display: grid;
@@ -431,11 +664,36 @@ button-3 {
   grid-gap: 20px;
 }
 
-.call a {
-  background-color: rgba(0, 0, 0, 0.619);
-  color: red;
-  text-decoration: none;
-  padding: 10px 20px;
+.call h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.call p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.nosotros h2 {
+  text-shadow: none;
+  color: black;
+  padding: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+.pgaleria p {
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(63, 61, 61);
+}
+
+.titulogaleria h2 {
+  color: black;
+  text-shadow: none;
+  padding: 10px;
 }
 
 .item {
@@ -447,6 +705,7 @@ button-3 {
   background-position: center;
   filter: grayscale(90%);
   transition: all 0.8s;
+  padding: 10px;
 }
 
 .item:hover {
@@ -539,9 +798,23 @@ button-3 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar a {
+    font-size: 18px;
+    margin: 10px;
+    padding: 8px;
+  }
+  .call h1 {
+    font-size: 40px;
+  }
+  .nosotros h2 {
+    font-size: 40px;
+  }
+  .titulogaleria h2 {
+    font-size: 40px;
+  }
   .galeria {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(4, 220px);
   }
   .item1 {
     grid-column: 1/3;
@@ -579,8 +852,62 @@ button-3 {
     grid-column: 3/4;
     grid-row: 4/5;
   }
+  footer {
+    font-size: 30px;
+  }
+  .redes a {
+    font-size: 40px;
+  }
+  .arriba i {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    min-height: 120px;
+  }
+  .navbar a {
+    font-size: 20px;
+  }
+  .call h1 {
+    font-size: 45px;
+  }
+  .nosotros h2 {
+    font-size: 45px;
+  }
+  .titulogaleria h2 {
+    font-size: 45px;
+  }
 }
 @media only screen and (min-width: 1200px) {
+  .navbar {
+    min-height: 150px;
+  }
+  .navbar a {
+    font-size: 22px;
+  }
+  .call h1 {
+    font-size: 55px;
+  }
+  .call p {
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .nosotros h2 {
+    font-size: 53px;
+    color: black;
+    padding: 20px;
+  }
+  p {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 50px;
+    padding: 10px;
+  }
   .galeria {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(5, 450px);
@@ -633,9 +960,25 @@ button-3 {
   overflow: hidden;
 }
 
+.textocontacto1 h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
+  text-shadow: none;
+  padding: 10px;
+}
+
+.textocontacto2 h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #fafafa;
+  text-shadow: none;
+  margin: 10px;
+  padding: 10px;
+}
+
 form {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
   background-color: rgba(255, 255, 255, 0.711);
-  text-shadow: 0 0 10px;
   border-radius: 15px;
   width: 600px;
   padding-left: 20px;
@@ -657,63 +1000,23 @@ form .enviar {
   color: black;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  body {
-    background-color: black;
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .call h1 {
+    font-size: 25px;
   }
-  h2 {
-    font-size: 45px;
-    text-shadow: 0 0 7px black;
-  }
-  h3 {
-    font-size: 35px;
-    text-shadow: 0 0 7px #fafafa;
-  }
-  form {
-    background-color: gray;
-    text-shadow: 0 0 8px black;
-    border-radius: 10px;
-    width: 500px;
-    padding-left: 50px;
-    margin: 80px 200px 80px 150px;
-    font-size: 40px;
-  }
-  input {
-    border-radius: 10%;
-    width: 80%;
-    padding: 1%;
-  }
-  .enviar {
-    text-align: end;
-    margin: 5px 50px 5px 10px;
-  }
-  .enviar a {
-    color: black;
-  }
-  footer {
-    margin: 0;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 580px) {
-  body {
-    background-color: black;
-  }
-  h2 {
-    font-size: 30px;
-    text-shadow: 0 0 7px black;
-  }
-  h3 {
+  .textocontacto1 h2 {
     font-size: 20px;
-    text-shadow: 0 0 7px red;
+  }
+  .textocontacto2 h3 {
+    font-size: 20px;
   }
   form {
     background-color: gray;
-    text-shadow: 0 0 5px black;
     font-size: 20px;
     border-radius: 8px;
-    padding-left: 20px;
+    padding: 25px;
     width: 280px;
-    margin: 20px 10px 20px 10px;
+    margin: 20px;
   }
   .enviar {
     text-align: end;
@@ -722,14 +1025,75 @@ form .enviar {
   .enviar a {
     color: black;
   }
-  footer {
-    margin: 0;
-    padding: 0;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .call h1 {
+    font-size: 32px;
+  }
+  .textocontacto1 h2 {
+    font-size: 25px;
+  }
+  .textocontacto2 h3 {
+    font-size: 25px;
+  }
+  form {
+    width: 380px;
+    padding: 28px;
+    font-size: 25px;
   }
 }
-@media only screen and (min-width: 581px) and (max-width: 767px) {
-  .container-fluid {
-    overflow: hidden;
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .call h1 {
+    font-size: 37px;
+  }
+  .textocontacto1 h2 {
+    font-size: 28px;
+  }
+  .textocontacto2 h3 {
+    font-size: 28px;
+  }
+  form {
+    border-radius: 10px;
+    width: 400px;
+    height: 620px;
+    padding-left: 50px;
+    margin: 80px 200px 80px 150px;
+    padding: 40px;
+    font-size: 28px;
+  }
+  input {
+    border-radius: 10%;
+    width: 80%;
+    padding: 10%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .call h1 {
+    font-size: 42px;
+  }
+  .textocontacto1 h2 {
+    font-size: 32px;
+  }
+  .textocontacto2 h3 {
+    font-size: 32px;
+  }
+  form {
+    font-size: 32px;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .call h1 {
+    font-size: 48px;
+  }
+  .textocontacto1 h2 {
+    font-size: 38px;
+  }
+  .textocontacto2 h3 {
+    font-size: 38px;
+  }
+  font {
+    font-size: 38px;
   }
 }
 /* fin pag contacto */

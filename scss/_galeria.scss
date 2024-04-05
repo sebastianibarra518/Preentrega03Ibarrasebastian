@@ -1,5 +1,10 @@
 /* inicio pagina galeria */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .galeria {
     width: 100%;
     display: grid;
@@ -10,12 +15,37 @@
     grid-gap: 20px;
 }
 
-.call a {
-    background-color: rgba(0, 0, 0, 0.619);
-    color: $color-rojo;
-    text-decoration: none;
-    padding: 10px 20px;
+.call h1 {
+    margin: 10px;
+    padding: 10px;
+}
 
+.call p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nosotros h2 {
+    text-shadow: none;
+    color: $color-negro;
+    padding: 20px;
+}
+
+h2 {
+    color: $color-negro;
+}
+
+.pgaleria p {
+    margin: 0;
+    padding: 20px;
+    background-color: $color-grisoescuro;
+}
+
+.titulogaleria h2 {
+    color: $color-negro;
+    text-shadow: none;
+    padding: 10px;
+    
 }
 
 .item {
@@ -27,6 +57,7 @@
     background-position: center;
     filter: grayscale(90%);
     transition: all 0.8s;
+    padding: 10px;
 }
 
 .item:hover{
@@ -130,9 +161,26 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar a {
+        font-size: 18px;
+        margin: 10px;
+        padding: 8px;
+    }
+
+    .call h1 {
+        font-size: 40px;
+    }
+
+    .nosotros h2 {
+        font-size: 40px;
+    }
+    .titulogaleria h2 {
+        font-size:  40px;
+    }
+
     .galeria {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(4, 300px);
+        grid-template-rows: repeat(4, 220px);
     }
 
     .item1 {
@@ -178,14 +226,82 @@
         grid-column: 3/4;
         grid-row: 4/5;
     }
+
+    footer {
+        font-size: 30px;
+    }
+
+    .redes a {
+        font-size: 40px;
+    }
+
+    .arriba i {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .navbar {
+        min-height: 120px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+    }
+
+    .call h1 {
+        font-size: 45px;
+    }
+
+    .nosotros h2 {
+        font-size: 45px;
+    }
+    .titulogaleria h2 {
+        font-size:  45px;
+    }
 
 }
 
 
 @media only screen and (min-width: 1200px) {
+
+    .navbar {
+        min-height: 150px;
+    }
+
+    .navbar a {
+        font-size: 22px;
+    }
+
+    .call h1 {
+        font-size: 55px;
+    }
+
+    .call p {
+        font-size: 40px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .nosotros h2 {
+        font-size: 53px;
+        color: $color-negro;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 25px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+
     .galeria {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(5, 450px);
