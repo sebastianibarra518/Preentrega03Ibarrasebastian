@@ -527,11 +527,17 @@ span {
   }
 }
 @media only screen and (min-width: 1200px) {
-  h2 {
-    font-size: 50px;
+  .motor h2 {
+    font-size: 60px;
+  }
+  .motor span {
+    font-size: 70px;
+  }
+  .motor h2 p {
+    font-size: 45px;
   }
   img {
-    width: 70%;
+    width: 50%;
     height: auto;
   }
   .container-fluid h3 {
@@ -542,7 +548,7 @@ span {
     margin: 0;
   }
   .container-fluid ol {
-    font-size: 35px;
+    font-size: 45px;
   }
   .call2 {
     margin: 40px 100px;
