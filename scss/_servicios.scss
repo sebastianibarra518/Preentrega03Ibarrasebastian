@@ -37,7 +37,6 @@ img {
 .motor h2 {
     width: 50%;
     color: red;
-    text-shadow: 0 0 10px white;
     font-size: 50px;
 }
 
@@ -60,7 +59,7 @@ span {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 30px;
     color: $color-blanco;
-    background-color: $color-negro;
+    background-color: $color-grisoescuro;
 }
 
 .call2 {
@@ -286,15 +285,15 @@ span {
 @media only screen and (min-width: 1200px) {
 
     .motor h2 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .motor span {
-        font-size: 70px;
+        font-size: 65px;
     }
 
     .motor h2 p {
-        font-size: 45px;
+        font-size: 40px;
 
     }
     img {
@@ -311,11 +310,19 @@ span {
     }
 
     .container-fluid ol {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .call2 {
         margin: 40px 100px;
+    }
+
+    .call2 h1 {
+        font-size: 60px;
+    }
+
+    .call2 p {
+        font-size: 40px;
     }
 }
 

@@ -53,7 +53,7 @@ section img {
 }
 
 .jumbotron {
-    background-image: url(../multimedia/FONDO.jpg);
+    background-image: url(../multimedia/imagenjumbotron.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -63,7 +63,7 @@ section img {
 .call {
     height: fit-content;
     text-align: center;
-    text-shadow: 0 0 5px $color-rojo;
+    text-shadow: 0 0 10px $color-rojo;
     color: $color-negro;
     background-color: rgba(255, 255, 255, 0.452);
     border: 5px solid rgba(255, 255, 255, 0.438);
@@ -75,6 +75,7 @@ section img {
     }
 
     p {
+        font-family: "Madimi One", sans-serif; ;
         color: $color-negro;
         font-size: 15px;
         text-shadow: none;

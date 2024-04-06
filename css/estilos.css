@@ -50,7 +50,7 @@ section img {
 }
 
 .jumbotron {
-  background-image: url(../multimedia/FONDO.jpg);
+  background-image: url(../multimedia/imagenjumbotron.jpg);
   background-size: cover;
   background-position: center;
   height: fit-content;
@@ -60,7 +60,7 @@ section img {
 .call {
   height: fit-content;
   text-align: center;
-  text-shadow: 0 0 5px red;
+  text-shadow: 0 0 10px red;
   color: black;
   background-color: rgba(255, 255, 255, 0.452);
   border: 5px solid rgba(255, 255, 255, 0.438);
@@ -71,6 +71,7 @@ section img {
   font-size: 18px;
 }
 .call p {
+  font-family: "Madimi One", sans-serif;
   color: black;
   font-size: 15px;
   text-shadow: none;
@@ -322,7 +323,6 @@ img {
 .motor h2 {
   width: 50%;
   color: red;
-  text-shadow: 0 0 10px white;
   font-size: 50px;
 }
 
@@ -346,7 +346,7 @@ span {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 30px;
   color: #fafafa;
-  background-color: black;
+  background-color: rgb(63, 61, 61);
 }
 
 .call2 {
@@ -528,13 +528,13 @@ span {
 }
 @media only screen and (min-width: 1200px) {
   .motor h2 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .motor span {
-    font-size: 70px;
+    font-size: 65px;
   }
   .motor h2 p {
-    font-size: 45px;
+    font-size: 40px;
   }
   img {
     width: 50%;
@@ -548,10 +548,16 @@ span {
     margin: 0;
   }
   .container-fluid ol {
-    font-size: 45px;
+    font-size: 35px;
   }
   .call2 {
     margin: 40px 100px;
+  }
+  .call2 h1 {
+    font-size: 60px;
+  }
+  .call2 p {
+    font-size: 40px;
   }
 }
 /* fin pagina servicios */
@@ -744,39 +750,39 @@ h2 {
 }
 
 .item1 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_44e3be40.jpg);
+  background-image: url(../multimedia/imagen01.jpg);
 }
 
 .item2 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.02_bb90f10b.jpg);
+  background-image: url(../multimedia/imagen02.jpg);
 }
 
 .item3 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_0f0e5d50.jpg);
+  background-image: url(../multimedia/imagen03.avif);
 }
 
 .item4 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_8a6c6800.jpg);
+  background-image: url(../multimedia/imagen04.avif);
 }
 
 .item5 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_97d1463b.jpg);
+  background-image: url(../multimedia/imagen09.jpg);
 }
 
 .item6 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_a1a162f4.jpg);
+  background-image: url(../multimedia/imagen05.jpg);
 }
 
 .item7 {
-  background-image: url(../multimedia/Imagen\ de\ WhatsApp\ 2024-03-11\ a\ las\ 01.26.03_b9f4e8bd.jpg);
+  background-image: url(../multimedia/imagen06.avif);
 }
 
 .item8 {
-  background-image: url(../multimedia/motor.jpg);
+  background-image: url(../multimedia/imagen07.avif);
 }
 
 .item9 {
-  background-image: url(../multimedia/mesadetrabajo.jpg);
+  background-image: url(../multimedia/imagen08.jpeg);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
